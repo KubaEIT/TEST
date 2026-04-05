@@ -1,16 +1,15 @@
-# Blokada wszystkiego na starcie
+# Ignoruj wszystko domyślnie
 /*
 
-# Wyjątki - to CHCEMY wysłać
+# ODBLOKUJ Twoje foldery i pliki
 !wiatrak_cpp/
 !gui/
 !.gitignore
 !README.md
 
-# Blokada śmieci wewnątrz Twoich folderów
-**/build/
-**/dist/
+# ZABLOKUJ śmieci wewnątrz Twoich folderów (bardzo ważne!)
+wiatrak_cpp/build/
+gui/build/
+gui/dist/
 **/__pycache__/
 **/*.spec
-.venv/
-.west/
